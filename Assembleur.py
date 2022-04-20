@@ -6,7 +6,7 @@ def traduire_A(instr):
     # traduit une instruction du genre @nombre en le nombre avec le plus fort binon à zéro
     # (donc nombre est compris entre 0 et 32767)
     # par exemple @0 donnera 0000 0000 0000 0000 soit (0,0,0,0, 0,0,0,0, 0,0,0,0, 0,0,0,0)
-    # par exemple @21 donnera 0000 0000 0001 0101 soit (1,0,1,0, 0,0,0,0, 0,0,0,0, 0,0,0,0)
+    # par exemple @21 donnera 0000 0000 0001 0101 soit (1,0,1,0, 1,0,0,0, 0,0,0,0, 0,0,0,0)
     # par exemple @32767 donnera 0111 1111 1111 1111 soit (1,1,1,1, 1,1,1,1, 1,1,1,1, 1,1,1,0)
     
     # nombre ou symbole, @21 ou @étiquette
